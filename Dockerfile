@@ -43,4 +43,4 @@ run rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 user $USER
 
-cmd $SHELL
+cmd $SHELL -l
