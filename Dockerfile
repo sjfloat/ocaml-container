@@ -16,6 +16,7 @@ run apt-get update && apt-get install -y \
     camlp4 \
     camlp4-extra \
     m4 \
+    rlwrap \
     unzip 
 
 run apt-get clean
