@@ -32,6 +32,7 @@ run opam init -y > opam-init.out 2>&1
 run opam install -y \
     core \
     merlin \
+    oasis \
     utop
 
 add vim.patch /tmp/vim.patch
