@@ -17,6 +17,7 @@ run apt-get update && apt-get install -y \
     camlp4-extra \
     m4 \
     rlwrap \
+    vim-nox \
     unzip 
 
 run apt-get clean
