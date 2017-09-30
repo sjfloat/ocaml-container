@@ -26,7 +26,7 @@ run /bin/sh $HOME/opam_installer.sh /usr/bin > opam_installer.out 2>&1
 
 user $USER
 run opam init -v -y > opam-init.out 2>&1
-run opam switch 4.02.3
+run opam switch 4.04.0
 
 run eval `opam config env` && opam install -y \
     camlp4 \
